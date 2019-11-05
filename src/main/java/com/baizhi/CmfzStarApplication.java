@@ -15,7 +15,11 @@ import tk.mybatis.spring.annotation.MapperScan;
 public class CmfzStarApplication {
 
     public static void main(String[] args) {
-
+        System.out.println("----------------------");
+        System.out.println("----------------------");
+        System.out.println("----------------------");
+        System.out.println("----------------------");
+        System.out.println("----------------------");
         SpringApplication.run(CmfzStarApplication.class, args);
     }
 
@@ -31,6 +35,7 @@ public class CmfzStarApplication {
         HttpMessageConverter<?> converter = fasHttpMessageConverter;
         return new HttpMessageConverters(converter);
     }
+    
 
 
 }
